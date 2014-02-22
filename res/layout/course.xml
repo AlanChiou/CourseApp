@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF5FF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20pt"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="@string/id_text"
+            android:textSize="10pt" />
+
+        <EditText
+            android:id="@+id/sidText"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="@string/id_hint"
+            android:textSize="10pt" >
+        </EditText>
+
+        <com.alan.courseapp.SemesterSpinner
+            android:id="@+id/semester"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:hint="@string/semester"
+            android:prompt="@string/semester"
+            android:spinnerMode="dialog"
+            android:textSize="10pt" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:fadingEdge="vertical"
+        android:scrollbars="vertical" >
+
+        <com.alan.courseapp.CourseTableLinearLayout
+            android:id="@+id/courseTable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical" >
+        </com.alan.courseapp.CourseTableLinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/searchButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/searchSemester_text"
+        tools:targetApi="11" >
+    </Button>
+
+</LinearLayout>

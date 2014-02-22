@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CourseApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="course_title">臺北科大課表查詢</string>
+    <string name="id_hint">請輸入學號</string>
+    <string name="id_text">學號</string>
+    <string name="search_text">查詢</string>
+    <string name="searchSemester_text">查詢學期</string>
+    <string name="semester">學期</string>
+    <string name="offline_course">將目前課表設為離線瀏覽</string>
+    <string name="clear_offline">取消離線瀏覽課表</string>
+    <string name="login_setting">登入設定</string>
+    <string name="setting_title">入口網站登入設定</string>
+    <string name="id_label">帳號</string>
+    <string name="passwd_label">密碼</string>
+    <string name="save_button">儲存</string>
+    <string name="cancel_button">取消</string>
+    <string name="mon">一</string>
+    <string name="tue">二</string>
+    <string name="wed">三</string>
+    <string name="thu">四</string>
+    <string name="fri">五</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ten">A</string>
+    <string name="eleven">B</string>
+    <string name="twelve">C</string>
+    <string name="right">免責聲明：\n本軟體僅提供免費測試，但不保證運作正確性，同時不承擔造成任何一方的損失、賠償、補償、資安風險與衍生責任，使用時用戶須同意自行承擔一切風險。〈同意此聲明才被授權使用本軟體，如不同意請勿安裝使用，作者保留修改權利〉</string>
+
+</resources>
